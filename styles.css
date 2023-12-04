@@ -9,4 +9,51 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    background-color: antiquewhite;
+}
+
+body main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body main .complete-card {
+    width: 400px;
+    height: auto;
+    /* border: 2px solid #000; */
+    border-radius: 10px;
+}
+
+body main .complete-card .picture {
+    width: 100%;
+    height: 300px;
+}
+
+body main .complete-card .picture img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    height: 100%;
+}
+
+body main .complete-card .general-content {
+    max-height: 70%;
+    background-color: #fff;
+    padding: 20px;
+}
+
+body main .complete-card .general-content .content-profile {
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+}
+
+body main .complete-card .general-content .content-profile .profile-picture {
+    width: 50px;
+}
+
+body main .complete-card .general-content .content-profile .profile-picture img {
+    width: 100%;
 }

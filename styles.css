@@ -29,7 +29,7 @@ body main .complete-card {
 
 body main .complete-card .picture {
     width: 100%;
-    height: 300px;
+    height: 225px;
 }
 
 body main .complete-card .picture img {
@@ -42,11 +42,31 @@ body main .complete-card .general-content {
     max-height: 70%;
     background-color: #fff;
     padding: 20px;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+body main .complete-card .general-content .info-content .tag {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 0.85rem;
+    background-color: #F97316;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+
+body main .complete-card .general-content .info-content h2 {
+    margin-bottom: 5px;
 }
 
 body main .complete-card .general-content .content-profile {
     width: 100%;
-    padding-top: 30px;
     display: flex;
 }
 

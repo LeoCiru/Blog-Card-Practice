@@ -20,6 +20,10 @@ body main {
     align-items: center;
 }
 
+body header h1 {
+    text-align: center;
+}
+
 body main .complete-card {
     width: 400px;
     height: auto;

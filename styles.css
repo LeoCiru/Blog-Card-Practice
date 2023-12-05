@@ -23,7 +23,6 @@ body main {
 body main .complete-card {
     width: 400px;
     height: auto;
-    /* border: 2px solid #000; */
     border-radius: 10px;
 }
 
@@ -41,12 +40,12 @@ body main .complete-card .picture img {
 body main .complete-card .general-content {
     max-height: 70%;
     background-color: #fff;
-    padding: 20px;
-    height: 325px;
+    padding: 0px 35px;
+    height: 310px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    border-radius: 10px;
+    border-radius: 0 0 10px 10px;
 }
 
 body main .complete-card .general-content .info-content .tag {
@@ -63,6 +62,7 @@ body main .complete-card .general-content .info-content .tag {
 
 body main .complete-card .general-content .info-content h2 {
     margin-bottom: 5px;
+    font-size: 1.25rem;
 }
 
 body main .complete-card .general-content .content-profile {
@@ -72,8 +72,14 @@ body main .complete-card .general-content .content-profile {
 
 body main .complete-card .general-content .content-profile .profile-picture {
     width: 50px;
+    margin-right: 10px;
 }
 
 body main .complete-card .general-content .content-profile .profile-picture img {
     width: 100%;
+    border-radius: 50%;
+}
+
+body main .complete-card .general-content .content-profile .info-profile p {
+    font-weight: 200;
 }
